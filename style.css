@@ -1,0 +1,62 @@
+body {
+    padding-top: 56px;
+}
+a,
+a:active,
+a:hover{
+    text-decoration: none;
+}
+.card-title > .title {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.card-title > .tags {
+    font-size: 0.75rem;
+}
+.pagination > li:first-child a {
+    margin-left: 0;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+.pagination > li > a {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.comment .form-control {
+    display: inline-block;
+    width: 90%;
+}
+.comment label{
+    color: red;
+}
+.h5 {
+    font-size: 1.25rem;
+}
+.h1,.h2,.h3,.h4,.h5,.h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.nav-item:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+/*.dropdown-menu {*/
+/*    left: -50%;*/
+/*}*/
+.dropdown-menu:before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 15%;
+    margin-left: -7px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid rgba(238,238,238,.95);
+}
