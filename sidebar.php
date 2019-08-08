@@ -12,6 +12,20 @@
         </form>
     </div>
 </div>
+<!-- 归档 -->
+<div class="card my-4">
+    <h5 class="card-header">公告</h5>
+    <div class="card-body">
+        <div>
+          技术交流群：173318043
+          <a href="https://jq.qq.com/?_wv=1027&k=5JQABuo">加入群聊</a>
+        </div>
+        <div>
+          软件交流群：225303928
+          <a href="https://jq.qq.com/?_wv=1027&k=54vuTy7">加入群聊</a>
+        </div>
+    </div>
+</div>
 <!-- Categories Widget -->
 <div class="card my-4">
     <h5 class="card-header">标签</h5>

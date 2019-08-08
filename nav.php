@@ -28,18 +28,18 @@
                                 <a class="nav-link" href="<?php $category->permalink(); ?>">
                                     <?php $category->name(); ?>
                                 </a>
+                                <div class="dropdown-menu">
                                 <?php
                                 foreach ($children as $mid) {
                                     $child = $category->getCategory($mid);
                                     ?>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="<?php echo $child['permalink'] ?>">
-                                            <?php echo $child['name'] ?>
-                                        </a>
-                                    </div>
+                                    <a class="dropdown-item" href="<?php echo $child['permalink'] ?>">
+                                        <?php echo $child['name'] ?>
+                                    </a>
                                 <?php
                                 }
                                 ?>
+                                </div>
                             </li>
                 <?php
                         endif;

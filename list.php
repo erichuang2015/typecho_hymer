@@ -6,9 +6,9 @@
             <div class="card-title">
                 <span class="title"><?php $this->title() ?></span>
                 <span class="tags">
-                                <i class="fas fa-tags"></i>
-                                <?php $this->tags('  ', true, ''); ?>
-                            </span>
+                    <i class="fas fa-tags"></i>
+                    <?php $this->tags('  ', true, ''); ?>
+                </span>
             </div>
             <p class="card-text">
                 <?php $this->excerpt(100, '...'); ?>

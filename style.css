@@ -60,3 +60,6 @@ a:hover{
     border-right: 7px solid transparent;
     border-bottom: 7px solid rgba(238,238,238,.95);
 }
+img {
+    max-width: 100%;
+}
