@@ -7,8 +7,8 @@
             <!-- 如果当前用户已经登录 -->
             <?php if($this->user->hasLogin()): ?>
                 <!-- 显示当前登录用户的用户名以及登出连接 -->
-                <p>Logged in as <a href="<?php $this->options->adminUrl(); ?>"><?php $this->user->screenName(); ?></a>.
-                    <a href="<?php $this->options->index('Logout.do'); ?>" title="Logout">Logout &raquo;</a>
+                <p>当前登录用户 <a href="<?php $this->options->adminUrl(); ?>"><?php $this->user->screenName(); ?></a>。
+                    <a href="<?php $this->options->index('Logout.do'); ?>" title="Logout">注销 &raquo;</a>
                 </p>
                 <div class="form-group">
                     <textarea class="form-control" rows="3" style="vertical-align: middle;"></textarea>

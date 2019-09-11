@@ -9,3 +9,4 @@
 <link href="https://cdn.bootcss.com/font-awesome/5.7.0/css/all.min.css" rel="stylesheet">
 <!-- 自定义样式 -->
 <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
+<?php $this->header(); ?>
